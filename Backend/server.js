@@ -80,18 +80,18 @@ logger.info('Environment Configuration:', {
 
 // Server Configuration
 const allowedOrigins = [
-  'http://localhost:8005',
-  'http://localhost:8006',
-  'http://localhost:8007',
-  'http://localhost:8008',
-  'http://localhost:3000',
-  'http://127.0.0.1:5500',
-  'http://127.0.0.1:5502',
-  'http://44.223.23.145:8005',
-  'http://44.223.23.145:8006',
-  'http://44.223.23.145:8007',
-  'http://44.223.23.145:8008',
-  process.env.FRONTEND_URL || 'http://localhost:3000',
+  'http://16.171.208.179:8005',
+  'http://16.171.208.179:8006',
+  'http://16.171.208.179:8007',
+  'http://16.171.208.179:8008',
+  'http://16.171.208.179:3000',
+  'http://16.171.208.179:5500',
+  'http://16.171.208.179:5502',
+  'http://16.171.208.179:8005',
+  'http://16.171.208.179:8006',
+  'http://16.171.208.179:8007',
+  'http://16.171.208.179:8008',
+  process.env.FRONTEND_URL || 'http://16.171.208.179:3000',
 ];
 
 // Enhanced CORS setup
